@@ -1,0 +1,30 @@
+@import url(./normalize.css);
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&display=swap');
+
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hexbox {
+  text-align: center;
+}
+
+.hexbox__title {
+  font-family: 'Comfortaa', cursive;
+  height: 1rem;
+  font-size: 60px;
+}
+
+.hexbox__subtitle {
+  font-family: 'Comfortaa', cursive;
+  height: 1rem;
+  margin-top: 60px;
+  font-size: 20px;
+}
+
+.btn {
+  margin-top: 30px;
+}
