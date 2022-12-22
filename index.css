@@ -18,6 +18,20 @@
   font-size: 60px;
 }
 
+
+@media screen and (max-width: 320px) {
+  .hexbox__title {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .hexbox__title {
+    font-size: 30px;
+  }
+}
+
+
 .hexbox__subtitle {
   font-family: 'Comfortaa', cursive;
   height: 1rem;
@@ -25,6 +39,32 @@
   font-size: 20px;
 }
 
+@media screen and (max-width: 320px) {
+  .hexbox__subtitle {
+    font-size: 10px;
+    margin-top: 0px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .hexbox__subtitle {
+    font-size: 20px;
+    margin-top: 0px;
+  }
+}
+
 .btn {
   margin-top: 30px;
+}
+
+@media screen and (max-width: 320px) {
+  .btn {
+    margin-top: 40px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .btn {
+    margin-top: 30px;
+  }
 }
